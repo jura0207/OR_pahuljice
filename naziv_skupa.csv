@@ -1,0 +1,132 @@
+id_manufacturer,id_store,id_cereal,cereal_name,type,number_of_calories,price,ingredients,store_name,store_country_iso,manufacturer_name,manufacture_country_iso,id_ingredients,ingredient_name,is_vegan,is_gluten_free,is_allergens_free
+1,1,1,Nesquik,Chocolate balls,369,77.31,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Nestle,CH,16,Soy,t,t,f
+1,1,1,Nesquik,Chocolate balls,369,77.31,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Nestle,CH,1,Cacao powder,t,t,t
+1,1,1,Nesquik,Chocolate balls,369,77.31,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Nestle,CH,13,Rape oil,t,t,t
+1,1,1,Nesquik,Chocolate balls,369,77.31,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Nestle,CH,11,Honey,f,t,f
+1,1,1,Nesquik,Chocolate balls,369,77.31,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Nestle,CH,9,Milk,f,t,f
+1,1,1,Nesquik,Chocolate balls,369,77.31,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Nestle,CH,8,Nuts,t,t,f
+1,1,1,Nesquik,Chocolate balls,369,77.31,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Nestle,CH,7,Peanuts,t,t,f
+1,1,1,Nesquik,Chocolate balls,369,77.31,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Nestle,CH,6,Salt,t,t,f
+1,1,1,Nesquik,Chocolate balls,369,77.31,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Nestle,CH,5,Glucose syrup,t,t,t
+1,1,1,Nesquik,Chocolate balls,369,77.31,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Nestle,CH,4,Corn grits,t,t,t
+1,1,1,Nesquik,Chocolate balls,369,77.31,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Nestle,CH,3,Sugar,f,t,t
+1,1,1,Nesquik,Chocolate balls,369,77.31,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Nestle,CH,2,Wheat flour,t,f,f
+4,1,2,Lumpi honey rings,Honey rings,393,60,"{2,3,4,5,6,7,8,9,11,13,15,18}",Konzum,HR,Konzum,HR,18,Cinnamon,t,t,f
+4,1,2,Lumpi honey rings,Honey rings,393,60,"{2,3,4,5,6,7,8,9,11,13,15,18}",Konzum,HR,Konzum,HR,15,Barley malt extract,t,f,t
+4,1,2,Lumpi honey rings,Honey rings,393,60,"{2,3,4,5,6,7,8,9,11,13,15,18}",Konzum,HR,Konzum,HR,13,Rape oil,t,t,t
+4,1,2,Lumpi honey rings,Honey rings,393,60,"{2,3,4,5,6,7,8,9,11,13,15,18}",Konzum,HR,Konzum,HR,11,Honey,f,t,f
+4,1,2,Lumpi honey rings,Honey rings,393,60,"{2,3,4,5,6,7,8,9,11,13,15,18}",Konzum,HR,Konzum,HR,9,Milk,f,t,f
+4,1,2,Lumpi honey rings,Honey rings,393,60,"{2,3,4,5,6,7,8,9,11,13,15,18}",Konzum,HR,Konzum,HR,8,Nuts,t,t,f
+4,1,2,Lumpi honey rings,Honey rings,393,60,"{2,3,4,5,6,7,8,9,11,13,15,18}",Konzum,HR,Konzum,HR,7,Peanuts,t,t,f
+4,1,2,Lumpi honey rings,Honey rings,393,60,"{2,3,4,5,6,7,8,9,11,13,15,18}",Konzum,HR,Konzum,HR,6,Salt,t,t,f
+4,1,2,Lumpi honey rings,Honey rings,393,60,"{2,3,4,5,6,7,8,9,11,13,15,18}",Konzum,HR,Konzum,HR,5,Glucose syrup,t,t,t
+4,1,2,Lumpi honey rings,Honey rings,393,60,"{2,3,4,5,6,7,8,9,11,13,15,18}",Konzum,HR,Konzum,HR,4,Corn grits,t,t,t
+4,1,2,Lumpi honey rings,Honey rings,393,60,"{2,3,4,5,6,7,8,9,11,13,15,18}",Konzum,HR,Konzum,HR,3,Sugar,f,t,t
+4,1,2,Lumpi honey rings,Honey rings,393,60,"{2,3,4,5,6,7,8,9,11,13,15,18}",Konzum,HR,Konzum,HR,2,Wheat flour,t,f,f
+2,3,3,Crunchy chocolate & nut oat muesli,Choco muesli,458,45,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,1,Cacao powder,t,t,t
+2,3,3,Crunchy chocolate & nut oat muesli,Choco muesli,458,45,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,2,Wheat flour,t,f,f
+2,3,3,Crunchy chocolate & nut oat muesli,Choco muesli,458,45,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,3,Sugar,f,t,t
+2,3,3,Crunchy chocolate & nut oat muesli,Choco muesli,458,45,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,4,Corn grits,t,t,t
+2,3,3,Crunchy chocolate & nut oat muesli,Choco muesli,458,45,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,5,Glucose syrup,t,t,t
+2,3,3,Crunchy chocolate & nut oat muesli,Choco muesli,458,45,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,6,Salt,t,t,f
+2,3,3,Crunchy chocolate & nut oat muesli,Choco muesli,458,45,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,7,Peanuts,t,t,f
+2,3,3,Crunchy chocolate & nut oat muesli,Choco muesli,458,45,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,8,Nuts,t,t,f
+2,3,3,Crunchy chocolate & nut oat muesli,Choco muesli,458,45,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,9,Milk,f,t,f
+2,3,3,Crunchy chocolate & nut oat muesli,Choco muesli,458,45,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,11,Honey,f,t,f
+2,3,3,Crunchy chocolate & nut oat muesli,Choco muesli,458,45,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,12,Almonds,t,t,f
+2,3,3,Crunchy chocolate & nut oat muesli,Choco muesli,458,45,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,13,Rape oil,t,t,t
+2,3,3,Crunchy chocolate & nut oat muesli,Choco muesli,458,45,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,15,Barley malt extract,t,f,t
+2,3,3,Crunchy chocolate & nut oat muesli,Choco muesli,458,45,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,14,Corn,t,t,f
+2,3,3,Crunchy chocolate & nut oat muesli,Choco muesli,458,45,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,16,Soy,t,t,f
+2,3,4,Choco moons,Chocolate balls,366,52,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,8,Nuts,t,t,f
+2,3,4,Choco moons,Chocolate balls,366,52,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,1,Cacao powder,t,t,t
+2,3,4,Choco moons,Chocolate balls,366,52,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,2,Wheat flour,t,f,f
+2,3,4,Choco moons,Chocolate balls,366,52,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,3,Sugar,f,t,t
+2,3,4,Choco moons,Chocolate balls,366,52,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,4,Corn grits,t,t,t
+2,3,4,Choco moons,Chocolate balls,366,52,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,5,Glucose syrup,t,t,t
+2,3,4,Choco moons,Chocolate balls,366,52,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,6,Salt,t,t,f
+2,3,4,Choco moons,Chocolate balls,366,52,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,7,Peanuts,t,t,f
+2,3,4,Choco moons,Chocolate balls,366,52,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,9,Milk,f,t,f
+2,3,4,Choco moons,Chocolate balls,366,52,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,11,Honey,f,t,f
+2,3,4,Choco moons,Chocolate balls,366,52,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,13,Rape oil,t,t,t
+2,3,4,Choco moons,Chocolate balls,366,52,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,16,Soy,t,t,f
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,13,Rape oil,t,t,t
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,14,Corn,t,t,f
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,15,Barley malt extract,t,f,t
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,16,Soy,t,t,f
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,12,Almonds,t,t,f
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,11,Honey,f,t,f
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,10,Strawberry,t,t,f
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,9,Milk,f,t,f
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,8,Nuts,t,t,f
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,7,Peanuts,t,t,f
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,6,Salt,t,t,f
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,5,Glucose syrup,t,t,t
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,4,Corn grits,t,t,t
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,3,Sugar,f,t,t
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,2,Wheat flour,t,f,f
+2,3,5,Crunchy white chocolate & strawberry muesli,Fruit muesli,463,45,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}",Lidl,HR,Crownfield,DE,1,Cacao powder,t,t,t
+2,3,6,Honey hoops,Honey rings,364,52,"{2,3,4,5,6,7,8,9,11,13,15,18}",Lidl,HR,Crownfield,DE,15,Barley malt extract,t,f,t
+2,3,6,Honey hoops,Honey rings,364,52,"{2,3,4,5,6,7,8,9,11,13,15,18}",Lidl,HR,Crownfield,DE,2,Wheat flour,t,f,f
+2,3,6,Honey hoops,Honey rings,364,52,"{2,3,4,5,6,7,8,9,11,13,15,18}",Lidl,HR,Crownfield,DE,3,Sugar,f,t,t
+2,3,6,Honey hoops,Honey rings,364,52,"{2,3,4,5,6,7,8,9,11,13,15,18}",Lidl,HR,Crownfield,DE,4,Corn grits,t,t,t
+2,3,6,Honey hoops,Honey rings,364,52,"{2,3,4,5,6,7,8,9,11,13,15,18}",Lidl,HR,Crownfield,DE,5,Glucose syrup,t,t,t
+2,3,6,Honey hoops,Honey rings,364,52,"{2,3,4,5,6,7,8,9,11,13,15,18}",Lidl,HR,Crownfield,DE,6,Salt,t,t,f
+2,3,6,Honey hoops,Honey rings,364,52,"{2,3,4,5,6,7,8,9,11,13,15,18}",Lidl,HR,Crownfield,DE,7,Peanuts,t,t,f
+2,3,6,Honey hoops,Honey rings,364,52,"{2,3,4,5,6,7,8,9,11,13,15,18}",Lidl,HR,Crownfield,DE,8,Nuts,t,t,f
+2,3,6,Honey hoops,Honey rings,364,52,"{2,3,4,5,6,7,8,9,11,13,15,18}",Lidl,HR,Crownfield,DE,9,Milk,f,t,f
+2,3,6,Honey hoops,Honey rings,364,52,"{2,3,4,5,6,7,8,9,11,13,15,18}",Lidl,HR,Crownfield,DE,11,Honey,f,t,f
+2,3,6,Honey hoops,Honey rings,364,52,"{2,3,4,5,6,7,8,9,11,13,15,18}",Lidl,HR,Crownfield,DE,13,Rape oil,t,t,t
+2,3,6,Honey hoops,Honey rings,364,52,"{2,3,4,5,6,7,8,9,11,13,15,18}",Lidl,HR,Crownfield,DE,18,Cinnamon,t,t,f
+2,3,7,Nougat pillows,Filled pillows,440,80,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,16,Soy,t,t,f
+2,3,7,Nougat pillows,Filled pillows,440,80,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,1,Cacao powder,t,t,t
+2,3,7,Nougat pillows,Filled pillows,440,80,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,2,Wheat flour,t,f,f
+2,3,7,Nougat pillows,Filled pillows,440,80,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,3,Sugar,f,t,t
+2,3,7,Nougat pillows,Filled pillows,440,80,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,4,Corn grits,t,t,t
+2,3,7,Nougat pillows,Filled pillows,440,80,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,5,Glucose syrup,t,t,t
+2,3,7,Nougat pillows,Filled pillows,440,80,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,6,Salt,t,t,f
+2,3,7,Nougat pillows,Filled pillows,440,80,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,7,Peanuts,t,t,f
+2,3,7,Nougat pillows,Filled pillows,440,80,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,8,Nuts,t,t,f
+2,3,7,Nougat pillows,Filled pillows,440,80,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,9,Milk,f,t,f
+2,3,7,Nougat pillows,Filled pillows,440,80,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,11,Honey,f,t,f
+2,3,7,Nougat pillows,Filled pillows,440,80,"{1,2,3,4,5,6,7,8,9,11,13,16}",Lidl,HR,Crownfield,DE,13,Rape oil,t,t,t
+3,1,8,Lino pillows nougat,Filled pillows,432,64,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Podravka,HR,1,Cacao powder,t,t,t
+3,1,8,Lino pillows nougat,Filled pillows,432,64,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Podravka,HR,2,Wheat flour,t,f,f
+3,1,8,Lino pillows nougat,Filled pillows,432,64,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Podravka,HR,3,Sugar,f,t,t
+3,1,8,Lino pillows nougat,Filled pillows,432,64,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Podravka,HR,4,Corn grits,t,t,t
+3,1,8,Lino pillows nougat,Filled pillows,432,64,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Podravka,HR,5,Glucose syrup,t,t,t
+3,1,8,Lino pillows nougat,Filled pillows,432,64,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Podravka,HR,6,Salt,t,t,f
+3,1,8,Lino pillows nougat,Filled pillows,432,64,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Podravka,HR,7,Peanuts,t,t,f
+3,1,8,Lino pillows nougat,Filled pillows,432,64,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Podravka,HR,8,Nuts,t,t,f
+3,1,8,Lino pillows nougat,Filled pillows,432,64,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Podravka,HR,9,Milk,f,t,f
+3,1,8,Lino pillows nougat,Filled pillows,432,64,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Podravka,HR,11,Honey,f,t,f
+3,1,8,Lino pillows nougat,Filled pillows,432,64,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Podravka,HR,13,Rape oil,t,t,t
+3,1,8,Lino pillows nougat,Filled pillows,432,64,"{1,2,3,4,5,6,7,8,9,11,13,16}",Konzum,HR,Podravka,HR,16,Soy,t,t,f
+5,2,9,Frosted wheats,Wheats pillows,364,100,"{2,3,4,5,6,7,8,9,11,13,15,16,18}",Spar,HR,Kellogg's,US,18,Cinnamon,t,t,f
+5,2,9,Frosted wheats,Wheats pillows,364,100,"{2,3,4,5,6,7,8,9,11,13,15,16,18}",Spar,HR,Kellogg's,US,2,Wheat flour,t,f,f
+5,2,9,Frosted wheats,Wheats pillows,364,100,"{2,3,4,5,6,7,8,9,11,13,15,16,18}",Spar,HR,Kellogg's,US,3,Sugar,f,t,t
+5,2,9,Frosted wheats,Wheats pillows,364,100,"{2,3,4,5,6,7,8,9,11,13,15,16,18}",Spar,HR,Kellogg's,US,4,Corn grits,t,t,t
+5,2,9,Frosted wheats,Wheats pillows,364,100,"{2,3,4,5,6,7,8,9,11,13,15,16,18}",Spar,HR,Kellogg's,US,5,Glucose syrup,t,t,t
+5,2,9,Frosted wheats,Wheats pillows,364,100,"{2,3,4,5,6,7,8,9,11,13,15,16,18}",Spar,HR,Kellogg's,US,6,Salt,t,t,f
+5,2,9,Frosted wheats,Wheats pillows,364,100,"{2,3,4,5,6,7,8,9,11,13,15,16,18}",Spar,HR,Kellogg's,US,7,Peanuts,t,t,f
+5,2,9,Frosted wheats,Wheats pillows,364,100,"{2,3,4,5,6,7,8,9,11,13,15,16,18}",Spar,HR,Kellogg's,US,8,Nuts,t,t,f
+5,2,9,Frosted wheats,Wheats pillows,364,100,"{2,3,4,5,6,7,8,9,11,13,15,16,18}",Spar,HR,Kellogg's,US,9,Milk,f,t,f
+5,2,9,Frosted wheats,Wheats pillows,364,100,"{2,3,4,5,6,7,8,9,11,13,15,16,18}",Spar,HR,Kellogg's,US,11,Honey,f,t,f
+5,2,9,Frosted wheats,Wheats pillows,364,100,"{2,3,4,5,6,7,8,9,11,13,15,16,18}",Spar,HR,Kellogg's,US,13,Rape oil,t,t,t
+5,2,9,Frosted wheats,Wheats pillows,364,100,"{2,3,4,5,6,7,8,9,11,13,15,16,18}",Spar,HR,Kellogg's,US,15,Barley malt extract,t,f,t
+5,2,9,Frosted wheats,Wheats pillows,364,100,"{2,3,4,5,6,7,8,9,11,13,15,16,18}",Spar,HR,Kellogg's,US,16,Soy,t,t,f
+4,1,10,Kplus crunchy muesli,Choco muesli,471,41,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Konzum,HR,Konzum,HR,3,Sugar,f,t,t
+4,1,10,Kplus crunchy muesli,Choco muesli,471,41,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Konzum,HR,Konzum,HR,2,Wheat flour,t,f,f
+4,1,10,Kplus crunchy muesli,Choco muesli,471,41,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Konzum,HR,Konzum,HR,1,Cacao powder,t,t,t
+4,1,10,Kplus crunchy muesli,Choco muesli,471,41,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Konzum,HR,Konzum,HR,15,Barley malt extract,t,f,t
+4,1,10,Kplus crunchy muesli,Choco muesli,471,41,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Konzum,HR,Konzum,HR,16,Soy,t,t,f
+4,1,10,Kplus crunchy muesli,Choco muesli,471,41,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Konzum,HR,Konzum,HR,14,Corn,t,t,f
+4,1,10,Kplus crunchy muesli,Choco muesli,471,41,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Konzum,HR,Konzum,HR,13,Rape oil,t,t,t
+4,1,10,Kplus crunchy muesli,Choco muesli,471,41,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Konzum,HR,Konzum,HR,12,Almonds,t,t,f
+4,1,10,Kplus crunchy muesli,Choco muesli,471,41,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Konzum,HR,Konzum,HR,11,Honey,f,t,f
+4,1,10,Kplus crunchy muesli,Choco muesli,471,41,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Konzum,HR,Konzum,HR,9,Milk,f,t,f
+4,1,10,Kplus crunchy muesli,Choco muesli,471,41,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Konzum,HR,Konzum,HR,8,Nuts,t,t,f
+4,1,10,Kplus crunchy muesli,Choco muesli,471,41,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Konzum,HR,Konzum,HR,7,Peanuts,t,t,f
+4,1,10,Kplus crunchy muesli,Choco muesli,471,41,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Konzum,HR,Konzum,HR,6,Salt,t,t,f
+4,1,10,Kplus crunchy muesli,Choco muesli,471,41,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Konzum,HR,Konzum,HR,5,Glucose syrup,t,t,t
+4,1,10,Kplus crunchy muesli,Choco muesli,471,41,"{1,2,3,4,5,6,7,8,9,11,12,13,14,15,16}",Konzum,HR,Konzum,HR,4,Corn grits,t,t,t

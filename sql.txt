@@ -1,0 +1,7 @@
+CSV:
+\copy (SELECT * FROM public.cereal JOIN public.store using (id_store) join public.manufacturer using (id_manufacturer) cross join public.ingredients WHERE id_ingredients=ANY(ingredients) ORDER BY id_cereal ASC) TO 'C:\tmp\naziv_skupa.csv' CSV HEADER
+
+JSON:
+COPY (SELECT ROW_TO_JSON(t)
+FROM (SELECT * FROM public.cereal JOIN public.store using (id_store) join public.manufacturer using (id_manufacturer) cross join public.ingredients WHERE id_ingredients=ANY(ingredients) ORDER BY id_cereal ASC) t)
+TO 'c:\tmp\naziv_skupa.json';
