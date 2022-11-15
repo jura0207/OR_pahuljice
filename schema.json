@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "https://or.fer.unizg.hr/orpahuljice.json",
+  "type": "object",
+  "default": {},
+  "title": "OR Pahuljice",
+  "required": [
+    "cereal_name",
+    "type",
+    "number_of_calories",
+    "price",
+    "store_name",
+    "store_country_iso",
+    "manufacturer_name",
+    "manufacture_country_iso",
+    "ingredient_name",
+    "is_vegan",
+    "is_gluten_free",
+    "is_allergens_free"
+  ],
+  "properties": {
+    "cereal_name": {
+      "type": "string",
+      "default": "",
+      "title": "The cereal_name Schema",
+      "examples": [
+        "Nesquik"
+      ]
+    },
+    "type": {
+      "type": "string",
+      "default": "",
+      "title": "The type Schema",
+      "examples": [
+        "Chocolate balls"
+      ]
+    },
+    "number_of_calories": {
+      "type": "integer",
+      "default": 0,
+      "title": "The number_of_calories Schema",
+      "examples": [
+        369
+      ]
+    },
+    "price": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The price Schema",
+      "examples": [
+        77.31
+      ]
+    },
+    "store_name": {
+      "type": "string",
+      "default": "",
+      "title": "The store_name Schema",
+      "examples": [
+        "Konzum"
+      ]
+    },
+    "store_country_iso": {
+      "type": "string",
+      "default": "",
+      "title": "The store_country_iso Schema",
+      "examples": [
+        "HR"
+      ]
+    },
+    "manufacturer_name": {
+      "type": "string",
+      "default": "",
+      "title": "The manufacturer_name Schema",
+      "examples": [
+        "Nestle"
+      ]
+    },
+    "manufacture_country_iso": {
+      "type": "string",
+      "default": "",
+      "title": "The manufacture_country_iso Schema",
+      "examples": [
+        "CH"
+      ]
+    },
+    "ingredient_name": {
+      "type": "string",
+      "default": "",
+      "title": "The ingredient_name Schema",
+      "examples": [
+        "Soy"
+      ]
+    },
+    "is_vegan": {
+      "type": "boolean",
+      "default": false,
+      "title": "The is_vegan Schema",
+      "examples": [
+        true
+      ]
+    },
+    "is_gluten_free": {
+      "type": "boolean",
+      "default": false,
+      "title": "The is_gluten_free Schema",
+      "examples": [
+        true
+      ]
+    },
+    "is_allergens_free": {
+      "type": "boolean",
+      "default": false,
+      "title": "The is_allergens_free Schema",
+      "examples": [
+        false
+      ]
+    }
+  },
+  "examples": [{
+    "cereal_name": "Nesquik",
+    "type": "Chocolate balls",
+    "number_of_calories": 369,
+    "price": 77.31,
+    "store_name": "Konzum",
+    "store_country_iso": "HR",
+    "manufacturer_name": "Nestle",
+    "manufacture_country_iso": "CH",
+    "ingredient_name": "Soy",
+    "is_vegan": true,
+    "is_gluten_free": true,
+    "is_allergens_free": false
+  }]
+}
