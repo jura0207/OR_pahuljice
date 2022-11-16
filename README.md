@@ -7,7 +7,7 @@ Title - Pahuljice (eng. cereals)
 Keywords - Cereal, food  
 License - CC0-1.0  
 Author - Jura Vuković <jura.vukovic@fer.hr>  
-Version - 1.0  
+Version - 2.0  
 Language - English  
 
 ## CSV Distribution
