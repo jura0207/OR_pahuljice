@@ -13,17 +13,13 @@
                     "application/json"
                 ],
                 "parameters": [
-                    
                 ],
                 "responses": {
                     "200": {
                         "description": "Fetch successfull",
                         "schema": {
-                            "$ref": "#/definitions/Resource"
+                            "$ref": "#/definitions/schemas/cereal"
                         }
-                    },
-                    "404": {
-                        "description": "Resource not found"
                     }
                 }
             }
@@ -49,98 +45,87 @@
                     "200": {
                         "description": "Fetch successfull",
                         "schema": {
-                            "$ref": "#/definitions/Resource"
+                            "$ref": "#/definitions/schemas/cereal"
                         }
                     },
                     "400": {
-                        "description": "Invalid ID"
+                        "description": "No ID input given"
                     },
                     "404": {
-                        "description": "Resource not found"
+                        "description": "No cereal with requested ID"
                     }
                 }
             }
         }, 
-        "/two": {
+        "/calories": {
             "get": {
-                "summary": "",
-                "description": "",
+                "summary": "Get all cereals with their calories",
+                "description": "Get all cereals with their calories ordered ascending",
                 "produces": [
                     "application/json"
                 ],
                 "parameters": [
-                    {
-
-                    }
                 ],
                 "responses": {
                     "200": {
                         "description": "Fetch successfull",
                         "schema": {
-                            "$ref": "#/definitions/Resource"
+                            "$ref": "#/definitions/schemas/calories"
                         }
-                    },
-                    "400": {
-                        "description": "Invalid ID"
-                    },
-                    "404": {
-                        "description": "Resource not found"
                     }
                 }
             }
         },
-        "/three": {
+        "/price": {
             "get": {
-                "summary": "",
-                "description": "",
+                "summary": "Get all cereals with their prices",
+                "description": "Get all cereals with their prices ordered ascending",
                 "produces": [
                     "application/json"
                 ],
                 "parameters": [
-                    {
-
-                    }
                 ],
                 "responses": {
                     "200": {
                         "description": "Fetch successfull",
                         "schema": {
-                            "$ref": "#/definitions/Resource"
+                            "$ref": "#/definitions/schemas/price"
                         }
-                    },
-                    "400": {
-                        "description": "Invalid ID"
-                    },
-                    "404": {
-                        "description": "Resource not found"
                     }
                 }
             }
         },
-        "/four": {
+        "/country": {
             "get": {
-                "summary": "",
-                "description": "",
+                "summary": "Get all cereals with selected store country",
+                "description": "Get all cereals with selected store country",
                 "produces": [
                     "application/json"
                 ],
                 "parameters": [
                     {
-
+                        
+                        "name": "country",
+                        "in": "path",
+                        "description": "ISO 3166 alpha-2 code of the wanted country",
+                        "required": true,
+                        "type": "string",
+                        "format": "str"
+                        
                     }
                 ],
                 "responses": {
                     "200": {
                         "description": "Fetch successfull",
                         "schema": {
-                            "$ref": "#/definitions/Resource"
+                            "$ref": "#/definitions/schemas/country"
                         }
                     },
                     "400": {
-                        "description": "Invalid ID"
+                        "description": "No country input given"
                     },
                     "404": {
-                        "description": "Resource not found"
+                        "description": "Bad request"
                     }
                 }
             }
@@ -153,19 +138,13 @@
                     "application/json"
                 ],
                 "parameters": [
-                    {
-
-                    }
                 ],
                 "responses": {
                     "200": {
                         "description": "Fetch successfull",
                         "schema": {
-                            "$ref": "#/definitions/Resource"
+                            "$ref": "application/json"
                         }
-                    },
-                    "404": {
-                        "description": "Resource not found"
                     }
                 }
             }
@@ -177,22 +156,25 @@
                 "produces": [
                     "application/json"
                 ],
-                "parameters": [
-                    {
+                "requestBody": {
+                    "content": {
+                        "schema": {
+                            "$ref": "#/definitions/schemas/cereal"
+                        }
                     }
-                ],
+                },
                 "responses": {
                     "201": {
                         "description": "Insert successfull",
                         "schema": {
-                            "$ref": "#/definitions/Resource"
+                            "$ref": "#/definitions/schemas/cereal"
                         }
                     },
-                    "400": {
-                        "description": "Invalid input"
+                    "403": {
+                        "description": "Cereal with this ID already exist"
                     },
-                    "404": {
-                        "description": "Resource not found"
+                    "406": {
+                        "description": "Missing valid attribute names"
                     }
                 }
             }
@@ -214,18 +196,22 @@
                         "format": "int"
                     }
                 ],
-                "responses": {
-                    "200": {
-                        "description": "Insert successfull",
+                "requestBody": {
+                    "content": {
                         "schema": {
                             "$ref": "#/definitions/Resource"
                         }
-                    },
-                    "400": {
-                        "description": "Invalid input"
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Update successfull"
                     },
                     "404": {
-                        "description": "Resource not found"
+                        "description": "Cereal with this ID doesn't exist"
+                    },
+                    "406": {
+                        "description": "Missing valid attribute names"
                     }
                 }
             }
@@ -249,18 +235,93 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Insert successfull",
-                        "schema": {
-                            "$ref": "#/definitions/Resource"
-                        }
+                        "description": "Delete successfull"
                     },
                     "400": {
-                        "description": "Invalid input"
+                        "description": "No ID input given"
                     },
                     "404": {
-                        "description": "Resource not found"
+                        "description": "No cereal with given ID"
                     }
                 }
+            }
+        }
+    },
+    "definitions": {
+        "schemas": {
+            "cereal": {
+                "id_cereal": {
+                    "type": "integer"
+                  },
+                  "cereal_name": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string"
+                  },
+                  "number_of_calories": {
+                    "type": "integer"
+                  },
+                  "price": {
+                    "type": "float"
+                  },
+                  "id_store": {
+                    "type": "integer"
+                  },
+                  "id_manufacturer": {
+                    "type": "integer"
+                  },
+                  "ingredients": {
+                    "type": "array"
+                  }
+            },
+            "calories": {
+                "cereal_name": {
+                    "type": "string"
+                  },
+                  "number_of_calories": {
+                    "type": "integer"
+                  }
+            },
+            "price": {
+                "cereal_name": {
+                    "type": "string"
+                  },
+                  "price": {
+                    "type": "float"
+                  }
+            },
+            "country": {
+                "id_store": {
+                    "type": "integer"
+                  },
+                  "id_cereal": {
+                    "type": "integer"
+                  },
+                  "cereal_name": {
+                    "type": "string"
+                  },
+                  "id_manufacturer": {
+                    "type": "integer"
+                  },
+                  "type": {
+                    "type": "string"
+                  },
+                  "number_of_calories": {
+                    "type": "integer"
+                  },
+                  "price": {
+                    "type": "float"
+                  },
+                  "ingredients": {
+                    "type": "array"
+                  },
+                  "store_name": {
+                    "type": "string"
+                  },
+                  "store_country_iso": {
+                    "type": "string"
+                  }
             }
         }
     }
