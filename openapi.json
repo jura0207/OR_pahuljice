@@ -159,7 +159,7 @@
                 "requestBody": {
                     "content": {
                         "schema": {
-                            "$ref": "#/definitions/schemas/cereal"
+                            "$ref": "#/definitions/schemas/cerealId"
                         }
                     }
                 },
@@ -167,11 +167,11 @@
                     "201": {
                         "description": "Insert successfull",
                         "schema": {
-                            "$ref": "#/definitions/schemas/cereal"
+                            "$ref": "#/definitions/schemas/cerealId"
                         }
                     },
-                    "403": {
-                        "description": "Cereal with this ID already exist"
+                    "400": {
+                        "description": "Variable not correct"
                     },
                     "406": {
                         "description": "Missing valid attribute names"
@@ -253,6 +253,29 @@
                 "id_cereal": {
                     "type": "integer"
                   },
+                  "cereal_name": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string"
+                  },
+                  "number_of_calories": {
+                    "type": "integer"
+                  },
+                  "price": {
+                    "type": "float"
+                  },
+                  "id_store": {
+                    "type": "integer"
+                  },
+                  "id_manufacturer": {
+                    "type": "integer"
+                  },
+                  "ingredients": {
+                    "type": "array"
+                  }
+            },
+            "cerealId": {
                   "cereal_name": {
                     "type": "string"
                   },

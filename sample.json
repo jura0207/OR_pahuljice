@@ -1,0 +1,1820 @@
+{
+"@context": "http://schema.org",
+"cereal": [
+{
+"cereal_name": "Lino pillows nougat",
+"type": "Filled pillows",
+"price": 64,
+"store": {
+"store_name": "Konzum",
+"country": {
+"@type": "Country",
+"addressCountry": "HR"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Podravka",
+"country": {
+"@type": "Country",
+"addressCountry": "HR"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 432
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Nesquik",
+"type": "Chocolate balls",
+"price": 77.31,
+"store": {
+"store_name": "Konzum",
+"country": {
+"@type": "Country",
+"addressCountry": "HR"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Nestle",
+"country": {
+"@type": "Country",
+"addressCountry": "CH"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 369
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Lumpi honey rings",
+"type": "Honey rings",
+"price": 60,
+"store": {
+"store_name": "Konzum",
+"country": {
+"@type": "Country",
+"addressCountry": "HR"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Konzum",
+"country": {
+"@type": "Country",
+"addressCountry": "HR"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 393
+},
+"ingredients": [{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Barley malt extract",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Cinnamon",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Choco moons",
+"type": "Chocolate balls",
+"price": 52,
+"store": {
+"store_name": "Lidl",
+"country": {
+"@type": "Country",
+"addressCountry": "HR"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Crownfield",
+"country": {
+"@type": "Country",
+"addressCountry": "DE"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 366
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Crunchy white chocolate & strawberry muesli",
+"type": "Fruit muesli",
+"price": 45,
+"store": {
+"store_name": "Lidl",
+"country": {
+"@type": "Country",
+"addressCountry": "HR"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Crownfield",
+"country": {
+"@type": "Country",
+"addressCountry": "DE"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 463
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Strawberry",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Almonds",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Barley malt extract",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Honey hoops",
+"type": "Honey rings",
+"price": 52,
+"store": {
+"store_name": "Lidl",
+"country": {
+"@type": "Country",
+"addressCountry": "HR"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Crownfield",
+"country": {
+"@type": "Country",
+"addressCountry": "DE"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 364
+},
+"ingredients": [{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Barley malt extract",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Cinnamon",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Nougat pillows",
+"type": "Filled pillows",
+"price": 80,
+"store": {
+"store_name": "Lidl",
+"country": {
+"@type": "Country",
+"addressCountry": "HR"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Crownfield",
+"country": {
+"@type": "Country",
+"addressCountry": "DE"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 440
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Frosted wheats",
+"type": "Wheats pillows",
+"price": 100,
+"store": {
+"store_name": "Spar",
+"country": {
+"@type": "Country",
+"addressCountry": "HR"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Kellogg's",
+"country": {
+"@type": "Country",
+"addressCountry": "US"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 364
+},
+"ingredients": [{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Barley malt extract",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Cinnamon",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Nesquick",
+"type": "Chocolate balls",
+"price": 77.31,
+"store": {
+"store_name": "Konzum",
+"country": {
+"@type": "Country",
+"addressCountry": "HR"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Nestle",
+"country": {
+"@type": "Country",
+"addressCountry": "CH"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 369
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Nesquickkk",
+"type": "Chocolate balls",
+"price": 77.31,
+"store": {
+"store_name": "Konzum",
+"country": {
+"@type": "Country",
+"addressCountry": "HR"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Nestle",
+"country": {
+"@type": "Country",
+"addressCountry": "CH"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 369
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Nesquick",
+"type": "Chocolate balls",
+"price": 77.31,
+"store": {
+"store_name": "Konzum",
+"country": {
+"@type": "Country",
+"addressCountry": "HR"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Nestle",
+"country": {
+"@type": "Country",
+"addressCountry": "CH"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 369
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Nesquick",
+"type": "Chocolate balls",
+"price": 77.31,
+"store": {
+"store_name": "Konzum",
+"country": {
+"@type": "Country",
+"addressCountry": "HR"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Nestle",
+"country": {
+"@type": "Country",
+"addressCountry": "CH"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 369
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Nesquick",
+"type": "Chocolate balls",
+"price": 77.31,
+"store": {
+"store_name": "Kaufland",
+"country": {
+"@type": "Country",
+"addressCountry": "BH"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Nestle",
+"country": {
+"@type": "Country",
+"addressCountry": "CH"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 369
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Nesquick",
+"type": "Chocolate balls",
+"price": 77.31,
+"store": {
+"store_name": "Kaufland",
+"country": {
+"@type": "Country",
+"addressCountry": "BH"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Nestle",
+"country": {
+"@type": "Country",
+"addressCountry": "CH"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 369
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Nesquick",
+"type": "Chocolate balls",
+"price": 77.31,
+"store": {
+"store_name": "Kaufland",
+"country": {
+"@type": "Country",
+"addressCountry": "BH"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Nestle",
+"country": {
+"@type": "Country",
+"addressCountry": "CH"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 369
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Nesquick",
+"type": "Chocolate balls",
+"price": 77.31,
+"store": {
+"store_name": "Kaufland",
+"country": {
+"@type": "Country",
+"addressCountry": "BH"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Nestle",
+"country": {
+"@type": "Country",
+"addressCountry": "CH"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 369
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Nesquick",
+"type": "Chocolate balls",
+"price": 77.31,
+"store": {
+"store_name": "Kaufland",
+"country": {
+"@type": "Country",
+"addressCountry": "BH"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Nestle",
+"country": {
+"@type": "Country",
+"addressCountry": "CH"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 369
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Nesquick",
+"type": "Chocolate balls",
+"price": 77.31,
+"store": {
+"store_name": "Kaufland",
+"country": {
+"@type": "Country",
+"addressCountry": "BH"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Nestle",
+"country": {
+"@type": "Country",
+"addressCountry": "CH"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 369
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]},
+{
+"cereal_name": "Nesquick",
+"type": "Chocolate balls",
+"price": 77.31,
+"store": {
+"store_name": "Kaufland",
+"country": {
+"@type": "Country",
+"addressCountry": "BH"
+}
+},
+"manufacturer": {
+"manufacturer_name": "Nestle",
+"country": {
+"@type": "Country",
+"addressCountry": "CH"
+}
+},
+"nutrition": {
+"@type": "NutritionInformation",
+"calories": 370
+},
+"ingredients": [{
+"ingredient_name": "Cacao powder",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Wheat flour",
+"is_vegan": true,
+"is_gluten_free": false,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Sugar",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Corn grits",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Glucose syrup",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Salt",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Peanuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Nuts",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Milk",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Honey",
+"is_vegan": false,
+"is_gluten_free": true,
+"is_allergens_free": false
+},
+{
+"ingredient_name": "Rape oil",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": true
+},
+{
+"ingredient_name": "Soy",
+"is_vegan": true,
+"is_gluten_free": true,
+"is_allergens_free": false
+}]}]
+}

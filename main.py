@@ -21,6 +21,15 @@ class Cereal(BaseModel):
     id_manufacturer: int
     ingredients: list[int]
 
+class CerealId(BaseModel):
+    cereal_name: str
+    type: str
+    number_of_calories: int
+    price: float
+    id_store: int
+    id_manufacturer: int
+    ingredients: list[int]
+
 @app.get("/all")
 def get_all(response: Response):
     #my_query = query_db("select * from allcereals")
@@ -113,7 +122,7 @@ def get_specification(response: Response):
     return {the_response}
 
 @app.post("/postone")
-async def post_one(cereal: Cereal, response: Response):
+async def post_one(cereal: CerealId, response: Response):
     invalid_names = check_column_names(cereal)
     if invalid_names != []:
         response.status_code = status.HTTP_406_NOT_ACCEPTABLE
@@ -122,7 +131,13 @@ async def post_one(cereal: Cereal, response: Response):
         the_response.message = "Missing valid attribute names"
         the_response.response = None
         return the_response
-    my_query = insert_db("INSERT INTO cereal (id_cereal, cereal_name, type, number_of_calories, price, id_store, id_manufacturer, ingredients) values (%s,%s,%s,%s,%s,%s,%s,%s)", (cereal.id_cereal, cereal.cereal_name, cereal.type, cereal.number_of_calories, cereal.price, cereal.id_store, cereal.id_manufacturer, cereal.ingredients))
+    my_query = query_db("select id_cereal from cereal order by id_cereal asc")
+    id_counter = 1
+    for i in my_query:
+        if i['id_cereal'] != id_counter:
+            break
+        id_counter += 1
+    my_query = insert_db("INSERT INTO cereal (id_cereal, cereal_name, type, number_of_calories, price, id_store, id_manufacturer, ingredients) values (%s,%s,%s,%s,%s,%s,%s,%s)", (id_counter, cereal.cereal_name, cereal.type, cereal.number_of_calories, cereal.price, cereal.id_store, cereal.id_manufacturer, cereal.ingredients))
     if my_query == True:
         response.status_code = status.HTTP_201_CREATED
         the_response = myResponse()
@@ -131,10 +146,10 @@ async def post_one(cereal: Cereal, response: Response):
         the_response.response = cereal
         return the_response
     else:
-        response.status_code = status.HTTP_403_FORBIDDEN
+        response.status_code = status.HTTP_400_BAD_REQUEST
         the_response = myResponse()
-        the_response.status = "Forbidden"
-        the_response.message = "Cereal with this ID already exist"
+        the_response.status = "Bad request"
+        the_response.message = "Variable not correct"
         the_response.response = None
         return the_response
 
